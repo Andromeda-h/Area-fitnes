@@ -160,6 +160,7 @@ body {
   min-height: 100%;
   background-color: black;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   color: white;
 }
 
@@ -171,6 +172,7 @@ body {
   bottom: 0;
   opacity: 0.6;
   margin: 1rem 0.7rem;
+  z-index: 1;
 }
 .button-up svg {
   width: 100%;
@@ -346,13 +348,13 @@ body {
   bottom: 50%;
   transform: translateY(50%) skew(-20deg);
   width: 1px;
-  height: 140vh;
+  height: 150vh;
   background-color: gray;
   opacity: 0.3;
 }
 @media screen and (min-width: 1200px) {
   .section-one main .home-container .home-text h1 .span-1::before {
-    height: 500vh;
+    height: 700vh;
     opacity: 0.4;
   }
 }
@@ -412,6 +414,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
+  margin: 2rem 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -600,7 +603,7 @@ body {
     z-index: -1;
     transform: rotatez(5deg);
     background-color: white;
-    box-shadow: 10px -2px 1px rgb(255, 255, 255);
+    box-shadow: 20px -20px 1px 1vh rgb(255, 255, 255);
   }
 }
 .section-three .section-three-container .box1 h2 {
@@ -730,10 +733,10 @@ body {
     height: 20vh;
     bottom: -10vh;
     left: -2rem;
-    z-index: 1;
+    z-index: 0;
     transform: rotatez(5deg);
     background-color: rgb(0, 0, 0);
-    box-shadow: 30px -2px 1px rgb(0, 0, 0);
+    box-shadow: 30px -2px 1px 1vw rgb(0, 0, 0);
   }
 }
 .section-four .section-four-container .one-section-container {
@@ -859,6 +862,7 @@ body {
   }
 }
 .section-four .section-four-container .three-section-container {
+  z-index: -1;
   text-align: center;
 }
 .section-four .section-four-container .three-section-container span {
