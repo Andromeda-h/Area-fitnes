@@ -429,6 +429,7 @@ body {
     height: auto;
     background: none;
     bottom: -13rem;
+    margin: 0;
   }
 }
 @media screen and (min-width: 1650px) {

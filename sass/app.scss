@@ -276,6 +276,7 @@ body{
             height: auto;
             background: none;
             bottom: -13rem;
+            margin: 0;
         }
         @include desktop-max {
             bottom: -15rem;
